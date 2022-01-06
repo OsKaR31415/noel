@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 from colors import Color
 from math import cos, sin, pi
 import random
