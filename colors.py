@@ -30,7 +30,3 @@ class Color:
         # [0; 1] --> int([232; 255])
         colorcode = int(232 + (level * 23))
         return self(colorcode, string)
-
-
-
-
