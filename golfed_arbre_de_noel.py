@@ -1,0 +1,1 @@
+print((lambda H:'^'.center(H+2)+'\n'+'\n'.join([''.join(['\\'if x==y//2 else('/' if x==-y//2 else(' 'if(x>y//2)or(x<-y//2)else'           *O~'[__import__('random').randint(0,13)]))for x in range(-H//2,H//2)])for y in range(2,H)]+['^'*H]+['| |'.center(H+2)]*(1+H//10)+['']))(int(input(">"))))
